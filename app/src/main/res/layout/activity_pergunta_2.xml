@@ -7,7 +7,7 @@
     android:background="@android:color/holo_orange_dark"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.example.quiztrip.quiztrip.Pergunta_1">
+    tools:context="com.example.quiztrip.quiztrip.Pergunta_2">
 
     <TextView
         android:id="@+id/textView"
@@ -29,32 +29,36 @@
         android:textSize="20sp"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:text="Quanto tempo você pretende ficar fora do Brasil estudando inglês?"
+        android:text="No destino, você pretende..."
         android:textColor="@color/colorPrimary" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="De duas a quatro semanas"
-        android:textColor="?attr/actionMenuTextColor" />
+        android:text="Estudar o idioma e viajar um pouco nos dias de folga."
+        android:textColor="?attr/actionMenuTextColor"
+        android:onClick="proxima3"/>
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="No mínimo um ano" />
+        android:text="Estudar e trabalhar."
+        android:onClick="proxima3"/>
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Até três meses" />
+        android:text="Estudar e praticar esportes"
+        android:onClick="proxima3"/>
 
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Entre seis meses e dois anos" />
+        android:text="Estudar o idioma e, quem sabe, fazer também um curso de especialização."
+        android:onClick="proxima3"/>
 
 </LinearLayout>

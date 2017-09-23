@@ -36,25 +36,29 @@
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="De duas a quatro semanas"
-        android:textColor="?attr/actionMenuTextColor" />
+        android:text="De duas a quatro semanas."
+        android:textColor="?attr/actionMenuTextColor"
+        android:onClick="proxima2"/>
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="No mínimo um ano" />
+        android:text="No mínimo um ano."
+        android:onClick="proxima2"/>
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Até três meses" />
+        android:text="Até três meses."
+        android:onClick="proxima2"/>
 
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Entre seis meses e dois anos" />
+        android:text="Entre seis meses e dois anos."
+        android:onClick="proxima2"/>
 
 </LinearLayout>

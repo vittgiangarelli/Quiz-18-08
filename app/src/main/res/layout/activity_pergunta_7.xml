@@ -7,7 +7,7 @@
     android:background="@android:color/holo_orange_dark"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.example.quiztrip.quiztrip.Pergunta_1">
+    tools:context="com.example.quiztrip.quiztrip.Pergunta_7">
 
     <TextView
         android:id="@+id/textView"
@@ -29,32 +29,36 @@
         android:textSize="20sp"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:text="Quanto tempo você pretende ficar fora do Brasil estudando inglês?"
+        android:text="Você gostaria de viver em um lugar..."
         android:textColor="@color/colorPrimary" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="De duas a quatro semanas"
-        android:textColor="?attr/actionMenuTextColor" />
+        android:text="Multicultural com boa qualidade de vida e povo hospitaleiro."
+        android:textColor="?attr/actionMenuTextColor"
+        android:onClick="proxima8"/>
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="No mínimo um ano" />
+        android:text="Com alto índice de segurança e muito contato com a natureza."
+        android:onClick="proxima8"/>
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Até três meses" />
+        android:text="Mais jovial, com boa qualidade de vida e belezas exóticas."
+        android:onClick="proxima8"/>
 
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Entre seis meses e dois anos" />
+        android:text="Onde eu encontre gente do mundo todo e ainda possa fazer umas comprinhas básicas."
+        android:onClick="proxima8"/>
 
 </LinearLayout>

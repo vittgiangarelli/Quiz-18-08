@@ -7,7 +7,7 @@
     android:background="@android:color/holo_orange_dark"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.example.quiztrip.quiztrip.Pergunta_1">
+    tools:context="com.example.quiztrip.quiztrip.Pergunta_8">
 
     <TextView
         android:id="@+id/textView"
@@ -29,32 +29,36 @@
         android:textSize="20sp"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:text="Quanto tempo você pretende ficar fora do Brasil estudando inglês?"
+        android:text="O clima ideal seria..."
         android:textColor="@color/colorPrimary" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="De duas a quatro semanas"
-        android:textColor="?attr/actionMenuTextColor" />
+        android:text="Com o tempo aberto, para atividades ao ar livre."
+        android:textColor="?attr/actionMenuTextColor"
+        android:onClick="proxima9"/>
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="No mínimo um ano" />
+        android:text="Tanto faz, não faço questão de Sol."
+        android:onClick="proxima9"/>
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Até três meses" />
+        android:text="Quente, no verão, e muito frio, no inverno"
+        android:onClick="proxima9"/>
 
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Entre seis meses e dois anos" />
+        android:text="Mais tropical e agradável"
+        android:onClick="proxima9"/>
 
 </LinearLayout>

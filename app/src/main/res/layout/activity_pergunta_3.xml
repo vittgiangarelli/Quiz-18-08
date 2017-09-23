@@ -7,7 +7,7 @@
     android:background="@android:color/holo_orange_dark"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.example.quiztrip.quiztrip.Pergunta_1">
+    tools:context="com.example.quiztrip.quiztrip.Pergunta_3">
 
     <TextView
         android:id="@+id/textView"
@@ -29,32 +29,36 @@
         android:textSize="20sp"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:text="Quanto tempo você pretende ficar fora do Brasil estudando inglês?"
+        android:text=" Com relação ao curso, você prefere..."
         android:textColor="@color/colorPrimary" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="De duas a quatro semanas"
-        android:textColor="?attr/actionMenuTextColor" />
+        android:text="Em campos universitários, para conviver um pouco com jovens nativos e pessoas do mundo todo."
+        android:textColor="?attr/actionMenuTextColor"
+        android:onClick="proxima4"/>
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="No mínimo um ano" />
+        android:text="Uma escola com boa parte da programação extra classe."
+        android:onClick="proxima4"/>
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Até três meses" />
+        android:text="Uma escola mais puxada, que exija bastante do aluno."
+        android:onClick="proxima4"/>
 
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Entre seis meses e dois anos" />
+        android:text="Uma escola de idiomas com ótima infraestrutura para receber estrangeiros."
+        android:onClick="proxima4"/>
 
 </LinearLayout>
