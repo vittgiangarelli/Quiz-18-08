@@ -7,7 +7,7 @@
     android:background="@android:color/holo_orange_dark"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.example.quiztrip.quiztrip.Pergunta_7">
+    tools:context="com.example.quiztrip.quiztrip.Pergunta7">
 
     <TextView
         android:id="@+id/textView"
@@ -33,7 +33,7 @@
         android:textColor="@color/colorPrimary" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button25"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Multicultural com boa qualidade de vida e povo hospitaleiro."
@@ -41,21 +41,21 @@
         android:onClick="proxima8"/>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button26"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Com alto índice de segurança e muito contato com a natureza."
         android:onClick="proxima8"/>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button27"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Mais jovial, com boa qualidade de vida e belezas exóticas."
         android:onClick="proxima8"/>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button28"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Onde eu encontre gente do mundo todo e ainda possa fazer umas comprinhas básicas."

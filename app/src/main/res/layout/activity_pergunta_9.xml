@@ -7,7 +7,7 @@
     android:background="@android:color/holo_orange_dark"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.example.quiztrip.quiztrip.Pergunta_9">
+    tools:context="com.example.quiztrip.quiztrip.Pergunta9">
 
     <TextView
         android:id="@+id/textView"
@@ -33,7 +33,7 @@
         android:textColor="@color/colorPrimary" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button33"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Qualquer fast food."
@@ -41,21 +41,21 @@
         android:onClick="proxima10"/>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button34"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Um belo churrasco seria conveniente."
         android:onClick="proxima10"/>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button35"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Seria bom que tivesse pratos variados, opções de comidas do mundo inteiro."
         android:onClick="proxima10"/>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button36"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Adoraria ter opções mais saudáveis como peixes e frutos do mar."

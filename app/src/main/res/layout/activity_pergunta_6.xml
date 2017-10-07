@@ -7,7 +7,7 @@
     android:background="@android:color/holo_orange_dark"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.example.quiztrip.quiztrip.Pergunta_6">
+    tools:context="com.example.quiztrip.quiztrip.Pergunta6">
 
     <TextView
         android:id="@+id/textView"
@@ -33,7 +33,7 @@
         android:textColor="@color/colorPrimary" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button21"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Aproveitar um dia de praia e belas paisagens naturais."
@@ -41,21 +41,21 @@
         android:onClick="proxima7"/>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button22"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Visitar museus e exposições e depois curtir o fim de noite em um pub"
         android:onClick="proxima7"/>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button23"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Participar de festas com o grupo de estudos."
         android:onClick="proxima7"/>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button24"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Fazer passeios culturais e conhecer cidades próximas ao destino"

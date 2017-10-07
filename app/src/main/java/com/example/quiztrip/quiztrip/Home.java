@@ -1,13 +1,10 @@
 package com.example.quiztrip.quiztrip;
 
 import android.content.Intent;
-import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.RelativeLayout;
 
 public class Home extends AppCompatActivity {
 
@@ -28,13 +25,13 @@ public class Home extends AppCompatActivity {
 
     public void proxima(View v) {
 
-        Intent Pergunta_1 = new Intent(getApplicationContext(), Pergunta_1.class);
+        Intent pergunta1 = new Intent(getApplicationContext(), Pergunta1.class);
 
         //String resultado = "Seu nome é " + editNome.getText() + " " + " Sua idade é " + " " + editIdade.getText();
 
-        //Pergunta_2.putExtra("resultado", resultado);
+        //Pergunta2.putExtra("resultado", resultado);
 
-        startActivity(Pergunta_1);
+        startActivity(pergunta1);
     }
 
 

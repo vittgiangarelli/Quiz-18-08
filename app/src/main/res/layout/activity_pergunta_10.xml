@@ -7,7 +7,7 @@
     android:background="@android:color/holo_orange_dark"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.example.quiztrip.quiztrip.Pergunta_10">
+    tools:context="com.example.quiztrip.quiztrip.Pergunta10">
 
     <TextView
         android:id="@+id/textView"
@@ -33,7 +33,7 @@
         android:textColor="@color/colorPrimary" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button37"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Visitar castelos e prédios históricos."
@@ -41,21 +41,21 @@
         android:onClick="proxima11"/>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button38"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Passear por grandes avenidas e lugares famosos do cinema."
         android:onClick="proxima11"/>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button39"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Saltar de bungge jump em um cenário paradisíaco."
         android:onClick="proxima11"/>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button40"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Aprender a esquiar."

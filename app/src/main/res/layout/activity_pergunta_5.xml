@@ -7,7 +7,7 @@
     android:background="@android:color/holo_orange_dark"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.example.quiztrip.quiztrip.Pergunta_5">
+    tools:context="com.example.quiztrip.quiztrip.Pergunta5">
 
     <TextView
         android:id="@+id/textView"
@@ -33,7 +33,7 @@
         android:textColor="@color/colorPrimary" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button17"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Aproveitar para me divertir à natureza e praticar esportes."
@@ -41,21 +41,21 @@
         android:onClick="proxima6"/>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button18"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Juntar dinheiro em paralelo com o curso."
         android:onClick="proxima6"/>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button19"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Conhecer mais a fundo outras culturas e ter base histórica mais ampla."
         android:onClick="proxima6"/>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button20"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Dar uma turbinada na carreira com uma experiência internacional."

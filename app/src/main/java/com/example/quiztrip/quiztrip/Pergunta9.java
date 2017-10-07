@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class Pergunta_9 extends AppCompatActivity {
+public class Pergunta9 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,12 +21,12 @@ public class Pergunta_9 extends AppCompatActivity {
 
     public void proxima10(View v) {
 
-        Intent Pergunta_10 = new Intent(this, Pergunta_10.class);
+        Intent pergunta10 = new Intent(this, Pergunta10.class);
 
         //String resultado = "Seu nome é " + editNome.getText() + " " + " Sua idade é " + " " + editIdade.getText();
 
-        //Pergunta_2.putExtra("resultado", resultado);
+        //Pergunta2.putExtra("resultado", resultado);
 
-        startActivity(Pergunta_10);
+        startActivity(pergunta10);
     }
 }

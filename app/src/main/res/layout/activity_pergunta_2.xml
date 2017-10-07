@@ -7,7 +7,7 @@
     android:background="@android:color/holo_orange_dark"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.example.quiztrip.quiztrip.Pergunta_2">
+    tools:context="com.example.quiztrip.quiztrip.Pergunta2">
 
     <TextView
         android:id="@+id/textView"
@@ -33,7 +33,7 @@
         android:textColor="@color/colorPrimary" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Estudar o idioma e viajar um pouco nos dias de folga."
@@ -41,21 +41,21 @@
         android:onClick="proxima3"/>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Estudar e trabalhar."
         android:onClick="proxima3"/>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Estudar e praticar esportes"
         android:onClick="proxima3"/>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Estudar o idioma e, quem sabe, fazer também um curso de especialização."

@@ -7,7 +7,7 @@
     android:background="@android:color/holo_orange_dark"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.example.quiztrip.quiztrip.Pergunta_4">
+    tools:context="com.example.quiztrip.quiztrip.Pergunta4">
 
     <TextView
         android:id="@+id/textView"
@@ -33,7 +33,7 @@
         android:textColor="@color/colorPrimary" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button14"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Um pouco mais folgado, dá até para pensar em algumas regalias."
@@ -41,21 +41,21 @@
         android:onClick="proxima5"/>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Um pouco apertado, precisa de um lugar com custo de vida mais em conta."
         android:onClick="proxima5"/>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button16"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Super folgado, meus pais até irão me ajudar com os custos."
         android:onClick="proxima5"/>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button17"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Um pouco maior, mas pretende trabalhar para me sustenrar depois de um tempo."

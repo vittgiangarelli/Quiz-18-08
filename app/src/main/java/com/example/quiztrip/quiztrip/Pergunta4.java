@@ -5,12 +5,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class Pergunta_10 extends AppCompatActivity {
+public class Pergunta4 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pergunta_10);
+        setContentView(R.layout.activity_pergunta_4);
 
         //textoResultado = (TextView)findViewById(R.id.textoResultado);
 
@@ -19,14 +19,14 @@ public class Pergunta_10 extends AppCompatActivity {
         //textoResultado.setText(resultado);
     }
 
-    public void proxima11(View v) {
+    public void proxima5(View v) {
 
-        Intent Pergunta_10 = new Intent(this, Pergunta_10.class);
+        Intent pergunta5 = new Intent(this, Pergunta5.class);
 
         //String resultado = "Seu nome é " + editNome.getText() + " " + " Sua idade é " + " " + editIdade.getText();
 
-        //Pergunta_2.putExtra("resultado", resultado);
+        //Pergunta2.putExtra("resultado", resultado);
 
-        startActivity(Pergunta_10);
+        startActivity(pergunta5);
     }
 }

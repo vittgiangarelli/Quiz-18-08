@@ -7,7 +7,7 @@
     android:background="@android:color/holo_orange_dark"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.example.quiztrip.quiztrip.Pergunta_3">
+    tools:context="com.example.quiztrip.quiztrip.Pergunta3">
 
     <TextView
         android:id="@+id/textView"
@@ -33,7 +33,7 @@
         android:textColor="@color/colorPrimary" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Em campos universitários, para conviver um pouco com jovens nativos e pessoas do mundo todo."
@@ -41,21 +41,21 @@
         android:onClick="proxima4"/>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Uma escola com boa parte da programação extra classe."
         android:onClick="proxima4"/>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Uma escola mais puxada, que exija bastante do aluno."
         android:onClick="proxima4"/>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button13"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Uma escola de idiomas com ótima infraestrutura para receber estrangeiros."

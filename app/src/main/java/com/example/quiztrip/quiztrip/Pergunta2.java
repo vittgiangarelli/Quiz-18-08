@@ -6,28 +6,30 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-public class Pergunta_2 extends AppCompatActivity {
+public class Pergunta2 extends AppCompatActivity {
+
+    TextView textoResultado;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pergunta_2);
 
-        //textoResultado = (TextView)findViewById(R.id.textoResultado);
+        textoResultado = (TextView)findViewById(R.id.textView); //TESTE
 
-        //String resultado = getIntent().getStringExtra("resultado");
+        int resultado = getIntent().getIntExtra("resultado", 0);
 
-        //textoResultado.setText(resultado);
+        textoResultado.setText(resultado+"");
     }
 
     public void proxima3(View v) {
 
-        Intent Pergunta_3 = new Intent(this, Pergunta_3.class);
+        Intent pergunta3 = new Intent(this, Pergunta3.class);
 
         //String resultado = "Seu nome é " + editNome.getText() + " " + " Sua idade é " + " " + editIdade.getText();
 
-        //Pergunta_2.putExtra("resultado", resultado);
+        //Pergunta2.putExtra("resultado", resultado);
 
-        startActivity(Pergunta_3);
+        startActivity(pergunta3);
     }
 }

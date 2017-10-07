@@ -16,16 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Pergunta_1"></activity>
-        <activity android:name=".Pergunta_2"></activity>
-        <activity android:name=".Pergunta_3"></activity>
-        <activity android:name=".Pergunta_4"></activity>
-        <activity android:name=".Pergunta_5"></activity>
-        <activity android:name=".Pergunta_6"></activity>
-        <activity android:name=".Pergunta_7"></activity>
-        <activity android:name=".Pergunta_8"></activity>
-        <activity android:name=".Pergunta_9"></activity>
-        <activity android:name=".Pergunta_10"></activity>
+        <activity android:name=".Pergunta1"></activity>
+        <activity android:name=".Pergunta2"></activity>
+        <activity android:name=".Pergunta3"></activity>
+        <activity android:name=".Pergunta4"></activity>
+        <activity android:name=".Pergunta5"></activity>
+        <activity android:name=".Pergunta6"></activity>
+        <activity android:name=".Pergunta7"></activity>
+        <activity android:name=".Pergunta8"></activity>
+        <activity android:name=".Pergunta9"></activity>
+        <activity android:name=".Pergunta10"></activity>
     </application>
 
 </manifest>
