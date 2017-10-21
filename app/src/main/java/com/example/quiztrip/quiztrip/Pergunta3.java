@@ -4,28 +4,34 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class Pergunta3 extends AppCompatActivity {
+
+    int resultado3;
+    TextView textoResultado;
+    int vlrPuxado2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pergunta_3);
 
-        //textoResultado = (TextView)findViewById(R.id.textoResultado);
+        textoResultado = (TextView)findViewById(R.id.textView);
 
-        //String resultado = getIntent().getStringExtra("resultado");
+        vlrPuxado2 = getIntent().getIntExtra("resultado", 0);
 
-        //textoResultado.setText(resultado);
+        //Toast.makeText(this, String.valueOf(vlrPuxado2) , Toast.LENGTH_SHORT).show();
+        resultado3 = vlrPuxado2;
+        textoResultado.setText(resultado3+"");
     }
 
     public void proxima4(View v) {
 
-        Intent pergunta4 = new Intent(this, Pergunta4.class);
+        Intent pergunta4 = new Intent(getApplicationContext(), Pergunta4.class);
 
-        //String resultado = "Seu nome é " + editNome.getText() + " " + " Sua idade é " + " " + editIdade.getText();
-
-        //Pergunta2.putExtra("resultado", resultado);
+        pergunta4.putExtra("resultado", resultado3);
 
         startActivity(pergunta4);
     }
