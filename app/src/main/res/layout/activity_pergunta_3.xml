@@ -10,7 +10,7 @@
     tools:context="com.example.quiztrip.quiztrip.Pergunta3">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/cabeçalho"
         android:layout_width="371dp"
         android:layout_height="41dp"
         android:background="@color/colorPrimaryDark"
@@ -23,42 +23,42 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/editText2"
+        android:id="@+id/per3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:text=" Com relação ao curso, você prefere..."
+        android:text="@string/p3"
         android:textColor="@color/colorPrimary" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/bt_p3a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Em campos universitários, para conviver um pouco com jovens nativos e pessoas do mundo todo."
+        android:text="@string/p3a"
         android:textColor="?attr/actionMenuTextColor"
         android:onClick="proxima4"/>
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/bt_p3b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Uma escola com boa parte da programação extra classe."
+        android:text="@string/p3b"
         android:onClick="proxima4"/>
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/bt_p3c"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Uma escola mais puxada, que exija bastante do aluno."
+        android:text="@string/p3c"
         android:onClick="proxima4"/>
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/bt_p3d"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Uma escola de idiomas com ótima infraestrutura para receber estrangeiros."
+        android:text="@string/p3d"
         android:onClick="proxima4"/>
 
 </LinearLayout>

@@ -1,3 +1,63 @@
 <resources>
     <string name="app_name">QuizTrip</string>
+
+    <string name="p1">Quanto tempo você pretende ficar fora do Brasil estudando inglês?</string>
+    <string name="p1a">De duas a quatro semanas.</string>
+    <string name="p1b">No mínimo um ano.</string>
+    <string name="p1c">Até três meses.</string>
+    <string name="p1d">Entre seis meses e dois anos.</string>
+
+    <string name="p2">No destino, você pretende...</string>
+    <string name="p2a">Estudar o idioma e viajar um pouco nos dias de folga.</string>
+    <string name="p2b">Estudar e trabalhar.</string>
+    <string name="p2c">Estudar e praticar esportes</string>
+    <string name="p2d">Estudar o idioma e, quem sabe, fazer também um curso de especialização.</string>
+
+    <string name="p3">Com relação ao curso, você prefere...</string>
+    <string name="p3a">Em campos universitários, para conviver um pouco com jovens nativos e pessoas do mundo todo.</string>
+    <string name="p3b">Uma escola com boa parte da programação extra classe.</string>
+    <string name="p3c">Uma escola mais puxada, que exija bastante do aluno.</string>
+    <string name="p3d">Uma escola de idiomas com ótima infraestrutura para receber estrangeiros.</string>
+
+    <string name="p4">Como está o orçamento para a viagem?</string>
+    <string name="p4a">Um pouco mais folgado, dá até para pensar em algumas regalias.</string>
+    <string name="p4b">Um pouco apertado, precisa de um lugar com custo de vida mais em conta.</string>
+    <string name="p4c">Super folgado, meus pais até irão me ajudar com os custos.</string>
+    <string name="p4d">Um pouco maior, mas pretende trabalhar para me sustenrar depois de um tempo.</string>
+
+    <string name="p5">Além de aprender inglês, o que mais você vai fazer?</string>
+    <string name="p5a">Aproveitar para me divertir à natureza e praticar esportes.</string>
+    <string name="p5b">Juntar dinheiro em paralelo com o curso.</string>
+    <string name="p5c">Conhecer mais a fundo outras culturas e ter base histórica mais ampla.</string>
+    <string name="p5d">Dar uma turbinada na carreira com uma experiência internacional.</string>
+
+    <string name="p6">Nos momentos de folga, você quer...</string>
+    <string name="p6a">Aproveitar um dia de praia e belas paisagens naturais.</string>
+    <string name="p6b">Visitar museus e exposições e depois curtir o fim de noite em um pub.</string>
+    <string name="p6c">Participar de festas com o grupo de estudos.</string>
+    <string name="p6d">Fazer passeios culturais e conhecer cidades próximas ao destino</string>
+
+    <string name="p7">Você gostaria de viver em um lugar...</string>
+    <string name="p7a">Multicultural com boa qualidade de vida e povo hospitaleiro.</string>
+    <string name="p7b">Com alto índice de segurança e muito contato com a natureza.</string>
+    <string name="p7c">Mais jovial, com boa qualidade de vida e belezas exóticas.</string>
+    <string name="p7d">Onde eu encontre gente do mundo todo e ainda possa fazer umas comprinhas básicas.</string>
+
+    <string name="p8">O clima ideal seria...</string>
+    <string name="p8a">Com o tempo aberto, para atividades ao ar livre.</string>
+    <string name="p8b">Tanto faz, não faço questão de Sol.</string>
+    <string name="p8c">Quente, no verão, e muito frio, no inverno.</string>
+    <string name="p8d">Mais tropical e agradável.</string>
+
+    <string name="p9">O que mais gostaria de comer?</string>
+    <string name="p9a">Qualquer fast food.</string>
+    <string name="p9b">Um belo churrasco seria conveniente.</string>
+    <string name="p9c">Seria bom que tivesse pratos variados, opções de comidas do mundo inteiro.</string>
+    <string name="p9d">Adoraria ter opções mais saudáveis como peixes e frutos do mar.</string>
+
+    <string name="p10">Qual desses programas de lazer mais lhe agradaria?</string>
+    <string name="p10a">Visitar castelos e prédios históricos.</string>
+    <string name="p10b">Passear por grandes avenidas e lugares famosos do cinema.</string>
+    <string name="p10c">Saltar de bungge jump em um cenário paradisíaco.</string>
+    <string name="p10d">Aprender a esquiar.</string>
 </resources>

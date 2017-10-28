@@ -9,45 +9,37 @@ import android.widget.Toast;
 
 public class Pergunta2 extends AppCompatActivity {
 
-    int resultado2;
-    TextView textoResultado;
-    int vlrPuxado;
+    private int resultadoParcial;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pergunta_2);
 
-        textoResultado = (TextView)findViewById(R.id.textView); //TESTE
-
-        vlrPuxado = getIntent().getIntExtra("resultado", 0);
-        resultado2 = vlrPuxado;
-        //Toast.makeText(this, String.valueOf(vlrPuxado) , Toast.LENGTH_SHORT).show();
-
-        //textoResultado.setText(resultado+"");
+        resultadoParcial = getIntent().getIntExtra("resultado", 0);
     }
 
     public void proxima3(View v) {
 
         switch (v.getId()){
-            case R.id.button6:
-                resultado2 += 1;
+            case R.id.bt_p2a:
+                resultadoParcial += 1;
                 break;
-            case R.id.button7:
-                resultado2 += 2;
+            case R.id.bt_p2b:
+                resultadoParcial += 2;
                 break;
-            case R.id.button8:
-                resultado2 += 3;
+            case R.id.bt_p2c:
+                resultadoParcial += 3;
                 break;
-            case R.id.button9:
-                resultado2 += 4;
+            case R.id.bt_p2d:
+                resultadoParcial += 4;
                 break;
         }
 
 
         Intent pergunta3 = new Intent(getApplicationContext(), Pergunta3.class);
 
-        pergunta3.putExtra("resultado", resultado2);
+        pergunta3.putExtra("resultado", resultadoParcial);
 
         startActivity(pergunta3);
     }

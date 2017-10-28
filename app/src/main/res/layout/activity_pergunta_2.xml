@@ -10,7 +10,7 @@
     tools:context="com.example.quiztrip.quiztrip.Pergunta2">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/cabeçalho"
         android:layout_width="371dp"
         android:layout_height="41dp"
         android:background="@color/colorPrimaryDark"
@@ -23,42 +23,42 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/editText2"
+        android:id="@+id/per2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:text="No destino, você pretende..."
+        android:text="@string/p2"
         android:textColor="@color/colorPrimary" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/bt_p2a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Estudar o idioma e viajar um pouco nos dias de folga."
+        android:text="@string/p2a"
         android:textColor="?attr/actionMenuTextColor"
         android:onClick="proxima3"/>
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/bt_p2b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Estudar e trabalhar."
+        android:text="@string/p2b"
         android:onClick="proxima3"/>
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/bt_p2c"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Estudar e praticar esportes"
+        android:text="@string/p2c"
         android:onClick="proxima3"/>
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/bt_p2d"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Estudar o idioma e, quem sabe, fazer também um curso de especialização."
+        android:text="@string/p2d"
         android:onClick="proxima3"/>
 
 </LinearLayout>

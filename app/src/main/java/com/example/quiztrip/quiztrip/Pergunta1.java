@@ -4,11 +4,10 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 public class Pergunta1 extends AppCompatActivity {
 
-    int resultado;
+    private int resultadoParcial;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,25 +20,23 @@ public class Pergunta1 extends AppCompatActivity {
     public void proxima2(View v) {
 
         switch (v.getId()){
-            case R.id.button2:
-                resultado = 1;
+            case R.id.bt_p1a:
+                resultadoParcial = 1;
                 break;
-            case R.id.button3:
-                resultado = 2;
+            case R.id.bt_p1b:
+                resultadoParcial = 2;
                 break;
-            case R.id.button4:
-                resultado = 3;
+            case R.id.bt_p1c:
+                resultadoParcial = 3;
                 break;
-            case R.id.button5:
-                resultado = 4;
+            case R.id.bt_p1d:
+                resultadoParcial = 4;
                 break;
         }
 
         Intent pergunta2 = new Intent(getApplicationContext(), Pergunta2.class);
 
-
-
-        pergunta2.putExtra("resultado", resultado);
+        pergunta2.putExtra("resultado", resultadoParcial);
 
         startActivity(pergunta2);
     }

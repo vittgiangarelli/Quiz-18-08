@@ -10,7 +10,7 @@
     tools:context="com.example.quiztrip.quiztrip.Pergunta8">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/cabeçalho"
         android:layout_width="371dp"
         android:layout_height="41dp"
         android:background="@color/colorPrimaryDark"
@@ -23,42 +23,42 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/editText2"
+        android:id="@+id/per8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:text="O clima ideal seria..."
+        android:text="@string/p8"
         android:textColor="@color/colorPrimary" />
 
     <Button
-        android:id="@+id/button29"
+        android:id="@+id/bt_p8a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Com o tempo aberto, para atividades ao ar livre."
+        android:text="@string/p8a"
         android:textColor="?attr/actionMenuTextColor"
         android:onClick="proxima9"/>
 
     <Button
-        android:id="@+id/button30"
+        android:id="@+id/bt_p8b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tanto faz, não faço questão de Sol."
+        android:text="@string/p8b"
         android:onClick="proxima9"/>
 
     <Button
-        android:id="@+id/button31"
+        android:id="@+id/bt_p8c"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Quente, no verão, e muito frio, no inverno"
+        android:text="@string/p8c"
         android:onClick="proxima9"/>
 
     <Button
-        android:id="@+id/button32"
+        android:id="@+id/bt_p8d"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mais tropical e agradável"
+        android:text="@string/p8d"
         android:onClick="proxima9"/>
 
 </LinearLayout>

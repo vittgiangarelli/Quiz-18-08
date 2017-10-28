@@ -10,7 +10,7 @@
     tools:context="com.example.quiztrip.quiztrip.Pergunta1">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/cabeçalho"
         android:layout_width="371dp"
         android:layout_height="41dp"
         android:background="@color/colorPrimaryDark"
@@ -23,42 +23,42 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/editText2"
+        android:id="@+id/per1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:text="Quanto tempo você pretende ficar fora do Brasil estudando inglês?"
+        android:text="@string/p1"
         android:textColor="@color/colorPrimary" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/bt_p1a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="De duas a quatro semanas."
+        android:text="@string/p1a"
         android:textColor="?attr/actionMenuTextColor"
         android:onClick="proxima2"/>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/bt_p1b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="No mínimo um ano."
+        android:text="@string/p1b"
         android:onClick="proxima2"/>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/bt_p1c"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Até três meses."
+        android:text="@string/p1c"
         android:onClick="proxima2"/>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/bt_p1d"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Entre seis meses e dois anos."
+        android:text="@string/p1d"
         android:onClick="proxima2"/>
 
 </LinearLayout>

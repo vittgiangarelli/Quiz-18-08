@@ -10,7 +10,7 @@
     tools:context="com.example.quiztrip.quiztrip.Pergunta9">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/cabeçalho"
         android:layout_width="371dp"
         android:layout_height="41dp"
         android:background="@color/colorPrimaryDark"
@@ -23,42 +23,42 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/editText2"
+        android:id="@+id/per9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:text="O que mais gostaria de comer?"
+        android:text="@string/p9"
         android:textColor="@color/colorPrimary" />
 
     <Button
-        android:id="@+id/button33"
+        android:id="@+id/bt_p9a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Qualquer fast food."
+        android:text="@string/p9a"
         android:textColor="?attr/actionMenuTextColor"
         android:onClick="proxima10"/>
 
     <Button
-        android:id="@+id/button34"
+        android:id="@+id/bt_p9b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Um belo churrasco seria conveniente."
+        android:text="@string/p9b"
         android:onClick="proxima10"/>
 
     <Button
-        android:id="@+id/button35"
+        android:id="@+id/bt_p9c"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Seria bom que tivesse pratos variados, opções de comidas do mundo inteiro."
+        android:text="@string/p9c"
         android:onClick="proxima10"/>
 
     <Button
-        android:id="@+id/button36"
+        android:id="@+id/bt_p9d"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Adoraria ter opções mais saudáveis como peixes e frutos do mar."
+        android:text="@string/p9d"
         android:onClick="proxima10"/>
 
 </LinearLayout>

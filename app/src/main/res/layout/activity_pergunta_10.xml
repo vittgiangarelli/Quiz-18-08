@@ -10,7 +10,7 @@
     tools:context="com.example.quiztrip.quiztrip.Pergunta10">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/cabeçalho"
         android:layout_width="371dp"
         android:layout_height="41dp"
         android:background="@color/colorPrimaryDark"
@@ -23,42 +23,42 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/editText2"
+        android:id="@+id/per10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:text="Qual desses programas de lazer mais lhe agradaria?"
+        android:text="@string/p10"
         android:textColor="@color/colorPrimary" />
 
     <Button
-        android:id="@+id/button37"
+        android:id="@+id/bt_p10a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Visitar castelos e prédios históricos."
+        android:text="@string/p10a"
         android:textColor="?attr/actionMenuTextColor"
-        android:onClick="proxima11"/>
+        android:onClick="pagDestino"/>
 
     <Button
-        android:id="@+id/button38"
+        android:id="@+id/bt_p10b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Passear por grandes avenidas e lugares famosos do cinema."
-        android:onClick="proxima11"/>
+        android:text="@string/p10b"
+        android:onClick="pagDestino"/>
 
     <Button
-        android:id="@+id/button39"
+        android:id="@+id/bt_p10c"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Saltar de bungge jump em um cenário paradisíaco."
-        android:onClick="proxima11"/>
+        android:text="@string/p10c"
+        android:onClick="pagDestino"/>
 
     <Button
-        android:id="@+id/button40"
+        android:id="@+id/bt_p10d"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Aprender a esquiar."
-        android:onClick="proxima11"/>
+        android:text="@string/p10d"
+        android:onClick="pagDestino"/>
 
 </LinearLayout>

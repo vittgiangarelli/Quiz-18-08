@@ -7,25 +7,36 @@ import android.view.View;
 
 public class Pergunta9 extends AppCompatActivity {
 
+    private int resultadoParcial;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pergunta_9);
 
-        //textoResultado = (TextView)findViewById(R.id.textoResultado);
-
-        //String resultado = getIntent().getStringExtra("resultado");
-
-        //textoResultado.setText(resultado);
+        resultadoParcial = getIntent().getIntExtra("resultado", 0);
     }
 
     public void proxima10(View v) {
 
-        Intent pergunta10 = new Intent(this, Pergunta10.class);
+        switch (v.getId()){
+            case R.id.bt_p9a:
+                resultadoParcial += 1;
+                break;
+            case R.id.bt_p9b:
+                resultadoParcial += 2;
+                break;
+            case R.id.bt_p9c:
+                resultadoParcial += 3;
+                break;
+            case R.id.bt_p9d:
+                resultadoParcial += 4;
+                break;
+        }
 
-        //String resultado = "Seu nome é " + editNome.getText() + " " + " Sua idade é " + " " + editIdade.getText();
+        Intent pergunta10 = new Intent(getApplicationContext(), Pergunta10.class);
 
-        //Pergunta2.putExtra("resultado", resultado);
+        pergunta10.putExtra("resultado", resultadoParcial);
 
         startActivity(pergunta10);
     }

@@ -10,7 +10,7 @@
     tools:context="com.example.quiztrip.quiztrip.Pergunta5">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/cabeçalho"
         android:layout_width="371dp"
         android:layout_height="41dp"
         android:background="@color/colorPrimaryDark"
@@ -23,42 +23,42 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/editText2"
+        android:id="@+id/per5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:text="Além de aprender inglês, o que mais você vai fazer?"
+        android:text="@string/p5"
         android:textColor="@color/colorPrimary" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/bt_p5a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Aproveitar para me divertir à natureza e praticar esportes."
+        android:text="@string/p5a"
         android:textColor="?attr/actionMenuTextColor"
         android:onClick="proxima6"/>
 
     <Button
-        android:id="@+id/button18"
+        android:id="@+id/bt_p5b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Juntar dinheiro em paralelo com o curso."
+        android:text="@string/p5b"
         android:onClick="proxima6"/>
 
     <Button
-        android:id="@+id/button19"
+        android:id="@+id/bt_p5c"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Conhecer mais a fundo outras culturas e ter base histórica mais ampla."
+        android:text="@string/p5c"
         android:onClick="proxima6"/>
 
     <Button
-        android:id="@+id/button20"
+        android:id="@+id/bt_p5d"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dar uma turbinada na carreira com uma experiência internacional."
+        android:text="@string/p5d"
         android:onClick="proxima6"/>
 
 </LinearLayout>

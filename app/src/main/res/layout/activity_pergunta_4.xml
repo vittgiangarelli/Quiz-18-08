@@ -10,7 +10,7 @@
     tools:context="com.example.quiztrip.quiztrip.Pergunta4">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/cabeçalho"
         android:layout_width="371dp"
         android:layout_height="41dp"
         android:background="@color/colorPrimaryDark"
@@ -23,42 +23,42 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/editText2"
+        android:id="@+id/per4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:text="Como está o orçamento para a viagem?"
+        android:text="@string/p4"
         android:textColor="@color/colorPrimary" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/bt_p4a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Um pouco mais folgado, dá até para pensar em algumas regalias."
+        android:text="@string/p4a"
         android:textColor="?attr/actionMenuTextColor"
         android:onClick="proxima5"/>
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/bt_p4b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Um pouco apertado, precisa de um lugar com custo de vida mais em conta."
+        android:text="@string/p4b"
         android:onClick="proxima5"/>
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/bt_p4c"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Super folgado, meus pais até irão me ajudar com os custos."
+        android:text="@string/p4c"
         android:onClick="proxima5"/>
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/bt_p4d"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Um pouco maior, mas pretende trabalhar para me sustenrar depois de um tempo."
+        android:text="@string/p4d"
         android:onClick="proxima5"/>
 
 </LinearLayout>

@@ -10,7 +10,7 @@
     tools:context="com.example.quiztrip.quiztrip.Pergunta6">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/cabeçalho"
         android:layout_width="371dp"
         android:layout_height="41dp"
         android:background="@color/colorPrimaryDark"
@@ -23,42 +23,42 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/editText2"
+        android:id="@+id/per6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:text="Nos momentos de folga, você quer..."
+        android:text="@string/p6"
         android:textColor="@color/colorPrimary" />
 
     <Button
-        android:id="@+id/button21"
+        android:id="@+id/bt_p6a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Aproveitar um dia de praia e belas paisagens naturais."
+        android:text="@string/p6a"
         android:textColor="?attr/actionMenuTextColor"
         android:onClick="proxima7"/>
 
     <Button
-        android:id="@+id/button22"
+        android:id="@+id/bt_p6b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Visitar museus e exposições e depois curtir o fim de noite em um pub"
+        android:text="@string/p6b"
         android:onClick="proxima7"/>
 
     <Button
-        android:id="@+id/button23"
+        android:id="@+id/bt_p6c"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Participar de festas com o grupo de estudos."
+        android:text="@string/p6c"
         android:onClick="proxima7"/>
 
     <Button
-        android:id="@+id/button24"
+        android:id="@+id/bt_p6d"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fazer passeios culturais e conhecer cidades próximas ao destino"
+        android:text="@string/p6d"
         android:onClick="proxima7"/>
 
 </LinearLayout>
