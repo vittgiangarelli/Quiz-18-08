@@ -21,13 +21,13 @@ public class Pergunta8 extends AppCompatActivity {
 
         switch (v.getId()){
             case R.id.bt_p8a:
-                resultadoParcial += 1;
+                resultadoParcial += 3;
                 break;
             case R.id.bt_p8b:
                 resultadoParcial += 2;
                 break;
             case R.id.bt_p8c:
-                resultadoParcial += 3;
+                resultadoParcial += 1;
                 break;
             case R.id.bt_p8d:
                 resultadoParcial += 4;

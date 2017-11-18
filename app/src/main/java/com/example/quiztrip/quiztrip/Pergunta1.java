@@ -17,20 +17,23 @@ public class Pergunta1 extends AppCompatActivity {
 
     }
 
+    //Criar objeto contador com as quatro variáveis dos países e ir somando a cada questão, depois
+    // só comparar qual é maior e mostrar o resultado
+
     public void proxima2(View v) {
 
         switch (v.getId()){
             case R.id.bt_p1a:
-                resultadoParcial = 1;
+                resultadoParcial = 4;
                 break;
             case R.id.bt_p1b:
-                resultadoParcial = 2;
-                break;
-            case R.id.bt_p1c:
                 resultadoParcial = 3;
                 break;
+            case R.id.bt_p1c:
+                resultadoParcial = 2;
+                break;
             case R.id.bt_p1d:
-                resultadoParcial = 4;
+                resultadoParcial = 1;
                 break;
         }
 

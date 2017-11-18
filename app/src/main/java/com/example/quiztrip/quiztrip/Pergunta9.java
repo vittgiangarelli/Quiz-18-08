@@ -24,10 +24,10 @@ public class Pergunta9 extends AppCompatActivity {
                 resultadoParcial += 1;
                 break;
             case R.id.bt_p9b:
-                resultadoParcial += 2;
+                resultadoParcial += 3;
                 break;
             case R.id.bt_p9c:
-                resultadoParcial += 3;
+                resultadoParcial += 2;
                 break;
             case R.id.bt_p9d:
                 resultadoParcial += 4;

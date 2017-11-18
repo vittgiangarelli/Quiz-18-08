@@ -22,23 +22,23 @@ public class Pergunta10 extends AppCompatActivity {
 
         switch (v.getId()){
             case R.id.bt_p10a:
-                resultadoParcial += 1;
+                resultadoParcial += 4;
                 break;
             case R.id.bt_p10b:
-                resultadoParcial += 2;
+                resultadoParcial += 1;
                 break;
             case R.id.bt_p10c:
                 resultadoParcial += 3;
                 break;
             case R.id.bt_p10d:
-                resultadoParcial += 4;
+                resultadoParcial += 2;
                 break;
         }
 
-        //Intent destino = new Intent(getApplicationContext(), Destino.class);
+        Intent destino = new Intent(getApplicationContext(), Destino.class);
 
-        //destino.putExtra("resultado", resultadoParcial);
+        destino.putExtra("resultado", resultadoParcial);
 
-        //startActivity(destino);
+        startActivity(destino);
     }
 }

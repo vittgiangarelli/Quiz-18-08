@@ -23,16 +23,16 @@ public class Pergunta2 extends AppCompatActivity {
 
         switch (v.getId()){
             case R.id.bt_p2a:
-                resultadoParcial += 1;
-                break;
-            case R.id.bt_p2b:
                 resultadoParcial += 2;
                 break;
+            case R.id.bt_p2b:
+                resultadoParcial += 1;
+                break;
             case R.id.bt_p2c:
-                resultadoParcial += 3;
+                resultadoParcial += 4;
                 break;
             case R.id.bt_p2d:
-                resultadoParcial += 4;
+                resultadoParcial += 3;
                 break;
         }
 
