@@ -4,40 +4,48 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.TextView;
 
 public class Pergunta10 extends AppCompatActivity {
 
-    private int resultadoParcial;
+    private int eua;
+    private int inglaterra;
+    private int australia;
+    private int novaZelandia;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pergunta_10);
 
-        resultadoParcial = getIntent().getIntExtra("resultado", 0);
+        eua = getIntent().getIntExtra("eua", 0);
+        inglaterra = getIntent().getIntExtra("inglaterra", 0);
+        australia = getIntent().getIntExtra("australia", 0);
+        novaZelandia = getIntent().getIntExtra("novaZelandia", 0);
     }
 
     public void pagDestino(View v) {
 
         switch (v.getId()){
             case R.id.bt_p10a:
-                resultadoParcial += 4;
+                novaZelandia += 1;
                 break;
             case R.id.bt_p10b:
-                resultadoParcial += 1;
+                eua += 1;
                 break;
             case R.id.bt_p10c:
-                resultadoParcial += 3;
+                australia += 1;
                 break;
             case R.id.bt_p10d:
-                resultadoParcial += 2;
+                inglaterra += 1;
                 break;
         }
 
         Intent destino = new Intent(getApplicationContext(), Destino.class);
 
-        destino.putExtra("resultado", resultadoParcial);
+        destino.putExtra("eua", eua);
+        destino.putExtra("inglaterra", inglaterra);
+        destino.putExtra("australia", australia);
+        destino.putExtra("novaZelandia", novaZelandia);
 
         startActivity(destino);
     }

@@ -10,28 +10,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/aust1"
-        android:id="@+id/australia"
+        android:id="@+id/imagem_australia"
         android:visibility="invisible"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/eng"
-        android:id="@+id/inglaterra"
+        android:id="@+id/imagem_inglaterra"
         android:visibility="invisible"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/eua"
-        android:id="@+id/eua"
+        android:id="@+id/imagem_eua"
         android:visibility="invisible"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/nva_zeland"
-        android:id="@+id/nova_zelandia"
+        android:id="@+id/imagem_nova_zelandia"
         android:visibility="invisible"/>
 
 </android.support.constraint.ConstraintLayout>

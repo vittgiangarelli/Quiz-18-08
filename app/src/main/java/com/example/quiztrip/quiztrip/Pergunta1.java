@@ -7,7 +7,10 @@ import android.view.View;
 
 public class Pergunta1 extends AppCompatActivity {
 
-    private int resultadoParcial;
+    private int eua;
+    private int inglaterra;
+    private int australia;
+    private int novaZelandia;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,22 +27,25 @@ public class Pergunta1 extends AppCompatActivity {
 
         switch (v.getId()){
             case R.id.bt_p1a:
-                resultadoParcial = 4;
+                novaZelandia = 1;
                 break;
             case R.id.bt_p1b:
-                resultadoParcial = 3;
+                australia = 1;
                 break;
             case R.id.bt_p1c:
-                resultadoParcial = 2;
+                inglaterra = 1;
                 break;
             case R.id.bt_p1d:
-                resultadoParcial = 1;
+                eua = 1;
                 break;
         }
 
         Intent pergunta2 = new Intent(getApplicationContext(), Pergunta2.class);
 
-        pergunta2.putExtra("resultado", resultadoParcial);
+        pergunta2.putExtra("eua", eua);
+        pergunta2.putExtra("inglaterra", inglaterra);
+        pergunta2.putExtra("australia", australia);
+        pergunta2.putExtra("novaZelandia", novaZelandia);
 
         startActivity(pergunta2);
     }

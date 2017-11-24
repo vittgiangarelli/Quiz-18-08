@@ -7,36 +7,45 @@ import android.view.View;
 
 public class Pergunta7 extends AppCompatActivity {
 
-    private int resultadoParcial;
+    private int eua;
+    private int inglaterra;
+    private int australia;
+    private int novaZelandia;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pergunta_7);
 
-        resultadoParcial = getIntent().getIntExtra("resultado", 0);
+        eua = getIntent().getIntExtra("eua", 0);
+        inglaterra = getIntent().getIntExtra("inglaterra", 0);
+        australia = getIntent().getIntExtra("australia", 0);
+        novaZelandia = getIntent().getIntExtra("novaZelandia", 0);
     }
 
     public void proxima8(View v) {
 
         switch (v.getId()){
             case R.id.bt_p7a:
-                resultadoParcial += 2;
+                inglaterra += 1;
                 break;
             case R.id.bt_p7b:
-                resultadoParcial += 3;
+                australia += 1;
                 break;
             case R.id.bt_p7c:
-                resultadoParcial += 4;
+                novaZelandia += 1;
                 break;
             case R.id.bt_p7d:
-                resultadoParcial += 1;
+                eua += 1;
                 break;
         }
 
         Intent pergunta8 = new Intent(getApplicationContext(), Pergunta8.class);
 
-        pergunta8.putExtra("resultado", resultadoParcial);
+        pergunta8.putExtra("eua", eua);
+        pergunta8.putExtra("inglaterra", inglaterra);
+        pergunta8.putExtra("australia", australia);
+        pergunta8.putExtra("novaZelandia", novaZelandia);
 
         startActivity(pergunta8);
     }
