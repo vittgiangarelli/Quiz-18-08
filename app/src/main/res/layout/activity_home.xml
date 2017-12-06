@@ -27,6 +27,7 @@
         android:text="Iniciar"
         android:layout_alignParentBottom="true"
         android:id="@+id/btnIniciar1"
-        android:onClick="proxima"/>
+        android:onClick="proxima"
+        android:background="@drawable/botao_clicavel"/>
 
 </RelativeLayout>

@@ -38,27 +38,31 @@
         android:layout_height="wrap_content"
         android:text="@string/p7a"
         android:textColor="?attr/actionMenuTextColor"
-        android:onClick="proxima8"/>
+        android:onClick="proxima8"
+        android:background="@drawable/botao_clicavel"/>
 
     <Button
         android:id="@+id/bt_p7b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/p7b"
-        android:onClick="proxima8"/>
+        android:onClick="proxima8"
+        android:background="@drawable/botao_clicavel"/>
 
     <Button
         android:id="@+id/bt_p7c"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/p7c"
-        android:onClick="proxima8"/>
+        android:onClick="proxima8"
+        android:background="@drawable/botao_clicavel"/>
 
     <Button
         android:id="@+id/bt_p7d"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/p7d"
-        android:onClick="proxima8"/>
+        android:onClick="proxima8"
+        android:background="@drawable/botao_clicavel"/>
 
 </LinearLayout>

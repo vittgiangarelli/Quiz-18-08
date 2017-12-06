@@ -38,27 +38,31 @@
         android:layout_height="wrap_content"
         android:text="@string/p10a"
         android:textColor="?attr/actionMenuTextColor"
-        android:onClick="pagDestino"/>
+        android:onClick="pagDestino"
+        android:background="@drawable/botao_clicavel"/>
 
     <Button
         android:id="@+id/bt_p10b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/p10b"
-        android:onClick="pagDestino"/>
+        android:onClick="pagDestino"
+        android:background="@drawable/botao_clicavel"/>
 
     <Button
         android:id="@+id/bt_p10c"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/p10c"
-        android:onClick="pagDestino"/>
+        android:onClick="pagDestino"
+        android:background="@drawable/botao_clicavel"/>
 
     <Button
         android:id="@+id/bt_p10d"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/p10d"
-        android:onClick="pagDestino"/>
+        android:onClick="pagDestino"
+        android:background="@drawable/botao_clicavel"/>
 
 </LinearLayout>
