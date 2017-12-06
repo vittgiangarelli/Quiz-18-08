@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">QuizTrip</string>
 
+    <string name="cabecalho">Qual o destino de intercâmbio ideal pra você?</string>
+
     <string name="p1">Quanto tempo você pretende ficar fora do Brasil estudando inglês?</string>
     <string name="p1a">De duas a quatro semanas.</string>
     <string name="p1b">No mínimo um ano.</string>

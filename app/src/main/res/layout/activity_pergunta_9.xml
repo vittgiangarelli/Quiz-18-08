@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_dark"
+    android:background="@drawable/backyellow"
     android:orientation="vertical"
     android:weightSum="1"
     tools:context="com.example.quiztrip.quiztrip.Pergunta9">
@@ -13,8 +13,8 @@
         android:id="@+id/cabeçalho"
         android:layout_width="371dp"
         android:layout_height="41dp"
-        android:background="@color/colorPrimaryDark"
-        android:text="Qual o destino de intercâmbio ideal pra você ? "
+        android:background="@color/azulEscuro2"
+        android:text="@string/cabecalho"
         android:textColor="@android:color/background_light"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -30,7 +30,7 @@
         android:ems="10"
         android:inputType="textMultiLine"
         android:text="@string/p9"
-        android:textColor="@color/colorPrimary" />
+        android:textColor="@color/azulEscuro1" />
 
     <Button
         android:id="@+id/bt_p9a"
