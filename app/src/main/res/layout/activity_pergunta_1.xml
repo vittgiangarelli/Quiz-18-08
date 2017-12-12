@@ -13,7 +13,7 @@
         android:id="@+id/cabeçalho"
         android:layout_width="371dp"
         android:layout_height="41dp"
-        android:background="@color/azulEscuro2"
+        android:background="@color/colorPrimaryDark"
         android:text="@string/cabecalho"
         android:textColor="@android:color/background_light"
         android:textSize="15sp"
@@ -30,7 +30,7 @@
         android:ems="10"
         android:inputType="textMultiLine"
         android:text="@string/p1"
-        android:textColor="@color/azulEscuro1" />
+        android:textColor="@color/colorPrimary" />
 
     <Button
         android:id="@+id/bt_p1a"
@@ -39,6 +39,7 @@
         android:text="@string/p1a"
         android:textColor="?attr/actionMenuTextColor"
         android:onClick="proxima2"
+        android:tag="NOVAZELANDIA"
         android:background="@drawable/botao_clicavel"/>
 
     <Button
@@ -47,6 +48,7 @@
         android:layout_height="wrap_content"
         android:text="@string/p1b"
         android:onClick="proxima2"
+        android:tag="AUSTRALIA"
         android:background="@drawable/botao_clicavel"/>
 
     <Button
@@ -55,6 +57,7 @@
         android:layout_height="wrap_content"
         android:text="@string/p1c"
         android:onClick="proxima2"
+        android:tag="INGLATERRA"
         android:background="@drawable/botao_clicavel"/>
 
     <Button
@@ -63,6 +66,7 @@
         android:layout_height="wrap_content"
         android:text="@string/p1d"
         android:onClick="proxima2"
+        android:tag="EUA"
         android:background="@drawable/botao_clicavel"/>
 
 </LinearLayout>

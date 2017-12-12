@@ -5,49 +5,32 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import static android.R.attr.visible;
+import com.example.quiztrip.quiztrip.domain.Paises;
+import com.example.quiztrip.quiztrip.domain.PontuacaoPaises;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class Destino extends AppCompatActivity {
 
-    private int eua;
-    private int inglaterra;
-    private int australia;
-    private int novaZelandia;
-
-    private ImageView imgEua;
-    private ImageView imgInglaterra;
-    private ImageView imgAustralia;
-    private ImageView imgNovaZelandia;
+    private ImageView imgPaisMaisVotado;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_destino);
 
-        eua = getIntent().getIntExtra("eua", 0);
-        inglaterra = getIntent().getIntExtra("inglaterra", 0);
-        australia = getIntent().getIntExtra("australia", 0);
-        novaZelandia = getIntent().getIntExtra("novaZelandia", 0);
 
-        imgEua = (ImageView)findViewById(R.id.imagem_eua);
-        imgInglaterra = (ImageView)findViewById(R.id.imagem_inglaterra);
-        imgAustralia = (ImageView)findViewById(R.id.imagem_australia);
-        imgNovaZelandia = (ImageView)findViewById(R.id.imagem_nova_zelandia);
+        Map<Paises, Integer> imagens = new HashMap<>();
+        imagens.put(Paises.EUA, R.id.imagem_eua);
+        imagens.put(Paises.INGLATERRA, R.id.imagem_inglaterra);
+        imagens.put(Paises.AUSTRALIA, R.id.imagem_australia);
+        imagens.put(Paises.NOVAZELANDIA, R.id.imagem_nova_zelandia);
 
-        if(eua > inglaterra && eua > australia && eua > novaZelandia)
-            //faz isso
-            imgEua.setVisibility(View.VISIBLE);
+        Paises maisVotado = PontuacaoPaises.getMaisVotado();
 
-        if(inglaterra > eua && inglaterra > australia && inglaterra > novaZelandia)
-        //faz isso
-            imgInglaterra.setVisibility(View.VISIBLE);
+        imgPaisMaisVotado = (ImageView)findViewById(imagens.get(maisVotado));
 
-        if(australia > inglaterra && australia > eua && australia > novaZelandia)
-        //faz isso
-            imgAustralia.setVisibility(View.VISIBLE);
-
-        if(novaZelandia > inglaterra && novaZelandia > australia && novaZelandia > eua)
-        //faz isso
-            imgNovaZelandia.setVisibility(View.VISIBLE);
+        imgPaisMaisVotado.setVisibility(View.VISIBLE);
     }
 }
