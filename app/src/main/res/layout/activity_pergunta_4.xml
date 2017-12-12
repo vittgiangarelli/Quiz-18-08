@@ -38,10 +38,11 @@
         android:layout_height="wrap_content"
         android:text="@string/p4a"
         android:textColor="?attr/actionMenuTextColor"
-        android:onClick="proxima5"
+        android:onClick="proxima"
         android:tag="NOVAZELANDIA"
         android:layout_marginTop="110dp"
         android:layout_marginBottom="20dp"
+        android:layout_marginLeft="35dp"
         android:background="@drawable/botao_clicavel"/>
 
     <Button
@@ -49,10 +50,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/p4b"
-        android:onClick="proxima5"
+        android:onClick="proxima"
         android:tag="EUA"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
+        android:layout_marginLeft="35dp"
         android:background="@drawable/botao_clicavel"/>
 
     <Button
@@ -60,10 +62,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/p4c"
-        android:onClick="proxima5"
+        android:onClick="proxima"
         android:tag="INGLATERRA"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
+        android:layout_marginLeft="35dp"
         android:background="@drawable/botao_clicavel"/>
 
     <Button
@@ -71,10 +74,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/p4d"
-        android:onClick="proxima5"
+        android:onClick="proxima"
         android:tag="AUSTRALIA"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
+        android:layout_marginLeft="35dp"
         android:background="@drawable/botao_clicavel"/>
 
 </LinearLayout>

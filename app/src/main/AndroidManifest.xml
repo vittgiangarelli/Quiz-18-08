@@ -17,15 +17,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".Pergunta1" />
-        <activity android:name=".Pergunta2" />
-        <activity android:name=".Pergunta3" />
-        <activity android:name=".Pergunta4" />
-        <activity android:name=".Pergunta5" />
-        <activity android:name=".Pergunta6" />
-        <activity android:name=".Pergunta7" />
-        <activity android:name=".Pergunta8" />
-        <activity android:name=".Pergunta9" />
-        <activity android:name=".Pergunta10" />
         <activity android:name=".Destino"></activity>
     </application>
 

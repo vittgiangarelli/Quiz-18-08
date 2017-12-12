@@ -1,26 +1,22 @@
 package com.example.quiztrip.quiztrip;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
+import java.util.Arrays;
+import java.util.List;
 
-import com.example.quiztrip.quiztrip.domain.PontuacaoPaises;
-
-public class Pergunta5 extends AppCompatActivity {
+public class Pergunta5 extends AbstractPergunta {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pergunta_5);
+    protected Class getProxima() {
+        return Pergunta6.class;
     }
 
-    public void proxima6(View v) {
+    @Override
+    protected Integer getIdLayout() {
+        return R.layout.activity_pergunta_5;
+    }
 
-        PontuacaoPaises.votar(v.getTag().toString());
-
-        Intent pergunta6 = new Intent(getApplicationContext(), Pergunta6.class);
-
-        startActivity(pergunta6);
+    @Override
+    protected List<Integer> getIdsBotoes() {
+        return Arrays.asList(R.id.bt_p5a, R.id.bt_p5b, R.id.bt_p5c, R.id.bt_p5d);
     }
 }
