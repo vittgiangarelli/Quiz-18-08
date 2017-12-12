@@ -34,35 +34,47 @@
 
     <Button
         android:id="@+id/bt_p10a"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:text="@string/p10a"
         android:textColor="?attr/actionMenuTextColor"
         android:onClick="pagDestino"
+        android:tag="NOVAZELANDIA"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/botao_clicavel"/>
 
     <Button
         android:id="@+id/bt_p10b"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:text="@string/p10b"
         android:onClick="pagDestino"
+        android:tag="EUA"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/botao_clicavel"/>
 
     <Button
         android:id="@+id/bt_p10c"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:text="@string/p10c"
         android:onClick="pagDestino"
+        android:tag="AUSTRALIA"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/botao_clicavel"/>
 
     <Button
         android:id="@+id/bt_p10d"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:text="@string/p10d"
         android:onClick="pagDestino"
+        android:tag="INGLATERRA"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/botao_clicavel"/>
 
 </LinearLayout>

@@ -40,6 +40,8 @@
         android:textColor="?attr/actionMenuTextColor"
         android:onClick="proxima2"
         android:tag="NOVAZELANDIA"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/botao_clicavel"/>
 
     <Button
@@ -49,6 +51,8 @@
         android:text="@string/p1b"
         android:onClick="proxima2"
         android:tag="AUSTRALIA"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/botao_clicavel"/>
 
     <Button
@@ -58,6 +62,8 @@
         android:text="@string/p1c"
         android:onClick="proxima2"
         android:tag="INGLATERRA"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/botao_clicavel"/>
 
     <Button
@@ -67,6 +73,8 @@
         android:text="@string/p1d"
         android:onClick="proxima2"
         android:tag="EUA"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/botao_clicavel"/>
 
 </LinearLayout>
