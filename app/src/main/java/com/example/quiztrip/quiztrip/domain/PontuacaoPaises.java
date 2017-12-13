@@ -12,19 +12,19 @@ import java.util.TreeSet;
 
 public class PontuacaoPaises {
 
-    private static Map<Paises, Integer> contagem = new HashMap<>();
+    private Map<Paises, Integer> contagem = new HashMap<>();
 
-    static {
+    public PontuacaoPaises() {
         for (Paises pais : Paises.values()){
             contagem.put(pais, 0);
         }
     }
 
-    public static void votar(String pais){
+    public void votar(String pais){
         contagem.put(Paises.valueOf(pais), contagem.get(Paises.valueOf(pais))+1);
     }
 
-    public static Paises getMaisVotado(){
+    public Paises getMaisVotado(){
 
         Paises maior = Paises.values()[0];
         int maiorValor = contagem.get(maior);
@@ -40,20 +40,7 @@ public class PontuacaoPaises {
         return maior;
     }
 
-    private static void get(Paises pais){
+    private void get(Paises pais){
         contagem.put(pais, contagem.get(pais)+1);
-    }
-
-    public static void getEua(){
-        get(Paises.EUA);
-    }
-    public static void getInglaterra(){
-        get(Paises.INGLATERRA);
-    }
-    public static void getAustralia(){
-        get(Paises.AUSTRALIA);
-    }
-    public static void getNovaZelandia(){
-        get(Paises.NOVAZELANDIA);
     }
 }

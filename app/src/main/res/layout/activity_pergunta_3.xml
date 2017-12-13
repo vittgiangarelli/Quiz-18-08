@@ -34,8 +34,8 @@
 
     <Button
         android:id="@+id/bt_p3a"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:text="@string/p3a"
         android:textColor="?attr/actionMenuTextColor"
         android:onClick="proxima"
@@ -47,8 +47,8 @@
 
     <Button
         android:id="@+id/bt_p3b"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:text="@string/p3b"
         android:onClick="proxima"
         android:tag="AUSTRALIA"
@@ -59,8 +59,8 @@
 
     <Button
         android:id="@+id/bt_p3c"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:text="@string/p3c"
         android:onClick="proxima"
         android:tag="INGLATERRA"
@@ -71,8 +71,8 @@
 
     <Button
         android:id="@+id/bt_p3d"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:text="@string/p3d"
         android:onClick="proxima"
         android:tag="NOVAZELANDIA"

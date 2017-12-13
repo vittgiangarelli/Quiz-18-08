@@ -7,6 +7,7 @@ import android.widget.ImageView;
 
 import com.example.quiztrip.quiztrip.domain.Paises;
 import com.example.quiztrip.quiztrip.domain.PontuacaoPaises;
+import com.example.quiztrip.quiztrip.domain.PontuacaoPaisesSingleton;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -14,10 +15,12 @@ import java.util.Map;
 public class Destino extends AppCompatActivity {
 
     private ImageView imgPaisMaisVotado;
+    private PontuacaoPaises pontuacao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.pontuacao = PontuacaoPaisesSingleton.getInstance();
         setContentView(R.layout.activity_destino);
 
 
@@ -27,7 +30,7 @@ public class Destino extends AppCompatActivity {
         imagens.put(Paises.AUSTRALIA, R.id.imagem_australia);
         imagens.put(Paises.NOVAZELANDIA, R.id.imagem_nova_zelandia);
 
-        Paises maisVotado = PontuacaoPaises.getMaisVotado();
+        Paises maisVotado = this.pontuacao.getMaisVotado();
 
         imgPaisMaisVotado = (ImageView)findViewById(imagens.get(maisVotado));
 

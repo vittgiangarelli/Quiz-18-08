@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.quiztrip.quiztrip.domain.PontuacaoPaises;
+import com.example.quiztrip.quiztrip.domain.PontuacaoPaisesSingleton;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,6 +16,8 @@ import java.util.List;
 public abstract class AbstractPergunta extends AppCompatActivity {
 
     protected boolean respondida;
+
+    protected PontuacaoPaises pontuacao;
 
     protected abstract List<Integer> getIdsBotoes();
 
@@ -25,6 +28,7 @@ public abstract class AbstractPergunta extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.pontuacao = PontuacaoPaisesSingleton.getInstance();
         setContentView(this.getIdLayout());
     }
 
@@ -32,7 +36,7 @@ public abstract class AbstractPergunta extends AppCompatActivity {
 
         this.respondida = true;
 
-        PontuacaoPaises.votar(v.getTag().toString());
+        this.pontuacao.votar(v.getTag().toString());
 
         this.bloquearBotoes(v.getId());
 
@@ -54,9 +58,9 @@ public abstract class AbstractPergunta extends AppCompatActivity {
 
     protected void exibirProxima(){
 
-        Intent pergunta2 = new Intent(getApplicationContext(), this.getProxima());
+        Intent proximaTela = new Intent(getApplicationContext(), this.getProxima());
 
-        startActivity(pergunta2);
+        startActivity(proximaTela);
     }
 
     protected void bloquearBotoes(Integer idBotaoResposta){
