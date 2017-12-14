@@ -35,4 +35,18 @@
         android:id="@+id/imagem_nova_zelandia"
         android:visibility="invisible"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eua"
+        android:id="@+id/euaNome"
+        android:layout_above="@+id/imagem_eua"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/euatxt"
+        android:id="@+id/euaDesc"
+        android:layout_below="@id/imagem_eua"/>
+
 </android.support.constraint.ConstraintLayout>
