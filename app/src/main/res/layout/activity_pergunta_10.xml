@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backyellow"
+    android:background="@color/colorAccent"
     android:orientation="vertical"
     android:weightSum="1"
     tools:context="com.example.quiztrip.quiztrip.Pergunta10">
@@ -26,11 +26,11 @@
         android:id="@+id/per10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:ems="10"
         android:inputType="textMultiLine"
         android:text="@string/p10"
-        android:textColor="@color/colorPrimary" />
+        android:textColor="@color/colorPergunta" />
 
     <Button
         android:id="@+id/bt_p10a"
@@ -41,7 +41,7 @@
         android:textSize="15dp"
         android:onClick="proxima"
         android:tag="NOVAZELANDIA"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="90dp"
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="35dp"
         android:background="@drawable/botao_clicavel"/>

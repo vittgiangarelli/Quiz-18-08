@@ -2,51 +2,37 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/backyellow"
+    android:background="@drawable/fundo_perguntas"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.quiztrip.quiztrip.Destino">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:src="@drawable/aust1"
         android:id="@+id/imagem_australia"
         android:visibility="invisible"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:src="@drawable/eng"
         android:id="@+id/imagem_inglaterra"
         android:visibility="invisible"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:src="@drawable/eua"
         android:id="@+id/imagem_eua"
         android:visibility="invisible"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:src="@drawable/nva_zeland"
         android:id="@+id/imagem_nova_zelandia"
         android:visibility="invisible"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/eua"
-        android:id="@+id/euaNome"
-        android:layout_above="@+id/imagem_eua"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/euatxt"
-        android:id="@+id/euaDesc"
-        android:layout_below="@id/imagem_eua"/>
 
 </android.support.constraint.ConstraintLayout>

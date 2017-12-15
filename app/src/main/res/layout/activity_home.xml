@@ -4,24 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorAccent"
+    android:background="@drawable/logo_quiz"
     tools:context="com.example.quiztrip.quiztrip.Home"
     android:id="@+id/rel"
     >
 
-
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/logo_quiz"
-        android:id="@+id/imgLogo1"
-        android:layout_marginBottom="100dp"
-        />
-
     <Button
         android:layout_width="300dp"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:layout_centerHorizontal="true"
         android:textColor="@color/colorPreto"
         android:textSize="20dp"
@@ -30,7 +20,7 @@
         android:id="@+id/btnIniciar1"
         android:onClick="proxima"
         android:background="@drawable/botao_clicavel"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="10dp"
 
         />
 

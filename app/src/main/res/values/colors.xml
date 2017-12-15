@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#ffffff</color>
     <color name="colorPreto">#ffffff</color>
+    <color name="colorHome">#01588d</color>
+    <color name="colorPergunta">#c99a00</color>
 </resources>
